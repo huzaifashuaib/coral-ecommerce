@@ -20,7 +20,7 @@ const Navbar = () => {
     { title: "Craft Supplies & Tools", path: '/' }
   ]
   return (
-    <header className=' max-w-screen-2xl xl:px-28 px-4 m-auto'>
+    <header className=' max-w-screen-2xl xl:px-28 px-4 m-auto absolute top-0 right-0 left-0'>
       <nav className=' flex items-center justify-between md:py-4 pt-6 pb-3 container m-auto'>
         <FaSearch className='text-Black hidden md:block h-5 w-5 cursor-pointer' />
 
