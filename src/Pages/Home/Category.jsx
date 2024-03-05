@@ -23,11 +23,11 @@ const companyLogo = [
 
 const Category = () => {
     return (
-        <div className='xl:px-28 px-4 py-28 bg-red-300 max-w-screen-xl mx-auto'>
+        <div className='xl:px-28 px-4 py-28 max-w-screen-xl container mx-auto'>
             <div className='flex items-center justify-center flex-wrap gap-4 py-5'>
                 {
                     companyLogo.map(({ id, img }) => (
-                        <div key={id}><img src={img} alt="" /></div>
+                        <div key={id}><img src={img} alt="" className=" w-44" /></div>
                     ))
                 }
 
